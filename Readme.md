@@ -161,7 +161,7 @@ c. Observe the response in body.
 **2. Install MySQL.**
 **3. Create a .env file containing the following variables as per your MySQL connection.** <br>
 ```bash
-DB_HOST=
+DB_HOST
 DB_USERNAME
 DB_PASSWORD
 DB_NAME
@@ -202,7 +202,7 @@ npm start
 7. To manually test the API using REST api extension or POSTMAN as explained above, do the following:
 
    ```bash
-   signup
+   ### signup
    POST http://localhost:3000/signup
 
    Content-Type: application/json
