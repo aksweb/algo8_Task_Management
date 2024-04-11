@@ -1,19 +1,21 @@
 # **Algo8 Task Management API Docs**
 ## This readme is divided into 3 sections
    **A. Summary.** <br>
-   **B. Step & Requirements to run Hosted API.** <br>
-   **C. Step & Requirements to run Localhost API.** <br>
+   **B. Steps & Requirements to run Hosted API.** <br>
+   **C. Steps & Requirements to run Localhost API.** <br>
    
 ## A. Summary
 
 1. User creates the account by registering.<br>
-2. User Logged In and generates an JWT authentication token containining userId. <br>
+2. User Logs In and generates a JWT authentication token containing the userId. <br>
 3. Various CRUD operations like <br>
    a. Creating a Task. <br>
    b. Fetching user's task list.<br>
    c. Updating user's task.<br>
    d. Deleting user's task.<br>
    e. Deleting user and its related task.<br>
+4.**Hosting Server: Render ([Base Api: algo8-task-management.onrender.com](algo8-task-management.onrender.com))** <br>
+5.**Hosted MySQL Database : Clever-Cloud**<br>
 
 ## _**B. Requirements for running the hosted API**_:
 
