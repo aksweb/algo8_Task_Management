@@ -10,7 +10,7 @@ const userController = {
             const newUser = await userModel.createUser(email, username, hashedPassword);
             res.status(200).json({ message: 'User created successfully', user: newUser });
         } catch (error) {
-            console.error('Error signing up:', error);
+            console.log('Error signing up:', error);
             res.status(500).json({ error: 'An error occurred while signing up' });
         }
     },

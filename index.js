@@ -1,4 +1,6 @@
 const express = require('express');
+const mysql = require('mysql2/promise');
+require('dotenv').config();
 
 const bodyParser = require('body-parser');
 const apiBase = require('./src/routes/routes')

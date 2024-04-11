@@ -3,9 +3,9 @@ POST http://localhost:3000/signup
 Content-Type: application/json
 
 {
-    "email": "ank@gmail.com",
-    "username": "ank",
-    "password": "ank"
+    "email": "sonali@gmail.com",
+    "username": "sonali",
+    "password": "sonali"
 }
 
 ### login
@@ -13,33 +13,33 @@ POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-    "email": "ank@gmail.com",
-    "password": "ank"
+    "email": "sonali@gmail.com",
+    "password": "sonali"
 }
 
 ### get tasks of user
 GET http://localhost:3000/tasks
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU0LCJlbWFpbCI6ImFua0BnbWFpbC5jb20iLCJpYXQiOjE3MTI4MTk0MzEsImV4cCI6MTcxMjgyMzAzMX0.ovedxXtQw44-PovK115e7qYjsB2ZOpPY8lLjKYlHNiA
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU4LCJlbWFpbCI6InNvbmFsaUBnbWFpbC5jb20iLCJpYXQiOjE3MTI4MjQ2MDUsImV4cCI6MTcxMjgyODIwNX0.vxiYTsgjb7flM7q_bnGezrrq6puIZRq-sdV50-fqB_E
 
 
 ### creating tasks
 POST http://localhost:3000/tasks
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU0LCJlbWFpbCI6ImFua0BnbWFpbC5jb20iLCJpYXQiOjE3MTI4MTk0MzEsImV4cCI6MTcxMjgyMzAzMX0.ovedxXtQw44-PovK115e7qYjsB2ZOpPY8lLjKYlHNiA
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU4LCJlbWFpbCI6InNvbmFsaUBnbWFpbC5jb20iLCJpYXQiOjE3MTI4MjQ2MDUsImV4cCI6MTcxMjgyODIwNX0.vxiYTsgjb7flM7q_bnGezrrq6puIZRq-sdV50-fqB_E
 
 {
-    "title": "Kya mera Algo8 me ho jayega",
-    "description": "ho sakta hai"
+    "title": "mujhe gud paratha chaheye",
+    "description": "I m on diet"
 }
 
 ###update
 PUT http://localhost:3000/tasks/41
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU0LCJlbWFpbCI6ImFua0BnbWFpbC5jb20iLCJpYXQiOjE3MTI4MTk0MzEsImV4cCI6MTcxMjgyMzAzMX0.ovedxXtQw44-PovK115e7qYjsB2ZOpPY8lLjKYlHNiA
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU4LCJlbWFpbCI6InNvbmFsaUBnbWFpbC5jb20iLCJpYXQiOjE3MTI4MjQ2MDUsImV4cCI6MTcxMjgyODIwNX0.vxiYTsgjb7flM7q_bnGezrrq6puIZRq-sdV50-fqB_E
 
 {
   "title": "testing",
-  "description": "jest testing"
+  "description": "I m on dietI m on diet"
 }
 
 ### delete
