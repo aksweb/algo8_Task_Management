@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 let token = '';
 var randno = Math.floor(Math.random() * 10000) + 1;
 
-describe('Auth Routes', () => {
+describe('All APIs', () => {
     // Test case for the signup route
     it('should register a new user', async () => {
         const response = await request(app)
@@ -58,7 +58,7 @@ describe('Auth Routes', () => {
         expect(Array.isArray(response.body)).toBe(true);
     });
 
-    // Test case for fetching tasks
+    // Test case for unauthorized fetching
     it('should block un-authenticated user', async () => {
         const response = await request(app)
             .get('/tasks')

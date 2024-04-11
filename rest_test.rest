@@ -46,7 +46,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU4LCJlb
 DELETE http://localhost:3000/tasks/7
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjExLCJlbWFpbCI6InlhZGF2QGdtYWlsLmNvbSIsImlhdCI6MTcxMjc5NjkzNCwiZXhwIjoxNzEyODAwNTM0fQ.-7QHtq6E0u5KOsCsb-ghGeX0YmcVU63HWpYdoV9dZsA
 
-### delete
+### delete user and data
 DELETE http://localhost:3000/deluser
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjExLCJlbWFpbCI6InlhZGF2QGdtYWlsLmNvbSIsImlhdCI6MTcxMjc5NjkzNCwiZXhwIjoxNzEyODAwNTM0fQ.-7QHtq6E0u5KOsCsb-ghGeX0YmcVU63HWpYdoV9dZsA
 
