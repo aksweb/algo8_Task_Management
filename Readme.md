@@ -9,11 +9,11 @@
 **1. User creates the account by registering.<br>
 2. User Logs In and generates a JWT authentication token containing the userId. <br>
 3. Various CRUD operations like <br>
-   a. Creating a Task. <br>
-   b. Fetching user's task list.<br>
-   c. Updating user's task.<br>
-   d. Deleting user's task.<br>
-   e. Deleting user and its related task.<br>**
+     a. Creating a Task. <br>
+     b. Fetching user's task list.<br>
+     c. Updating user's task.<br>
+     d. Deleting user's task.<br>
+     e. Deleting user and its related task.<br>**
 4.**Hosting Server: Render ([Base Api: algo8-task-management.onrender.com](algo8-task-management.onrender.com))** <br>
 5.**Hosted MySQL Database : Clever-Cloud**<br>
 
