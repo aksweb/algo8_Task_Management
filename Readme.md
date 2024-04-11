@@ -1,6 +1,10 @@
 # **Algo8 Task Management API Docs**
-
-## Summary
+##The readme is divided int 3 sections
+   **A. Summary. **<br>
+   **B. Step & Requirements to run Hosted API.** <br>
+   **C. Step & Requirements to run Hosted API. **<br>
+   
+## A. Summary
 
 1. User creates the account by registering.<br>
 2. User Logged In and generates an JWT authentication token containining userId. <br>
@@ -11,7 +15,7 @@
    d. Deleting user's task.<br>
    e. Deleting user and its related task.<br>
 
-## _**Requirements for running the hosted API**_:
+## _**B. Requirements for running the hosted API**_:
 
 **1. Install POSTMAN or other REST API Testing tool**<br>
 **2. Internet Connection.**
@@ -151,8 +155,8 @@ c. Observe the response in body.
    DELETE https://algo8-task-management.onrender.com/deluser
    Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImVtYWlsIjoic29uaXB1amFAZ21haWwuY29tIiwiaWF0IjoxNzEyODM1Mjg4LCJleHAiOjE3MTI4Mzg4ODh9.Jj8X5Hx5ynjgXYtGNnSr1LjyYFZjtdPjrazKq7x8LHM
    ```
-
-## _**Requirements for running the API in localhost**_:
+<br> <br>
+## _**C. Requirements for running the API in localhost**_:
 
 **1. Clone this repository.** <br>
 ```bash
