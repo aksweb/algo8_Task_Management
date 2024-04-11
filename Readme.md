@@ -1,8 +1,8 @@
 # **Algo8 Task Management API Docs**
-##The readme is divided int 3 sections
-   **A. Summary. **<br>
+## The readme is divided int 3 sections
+   **A. Summary.** <br>
    **B. Step & Requirements to run Hosted API.** <br>
-   **C. Step & Requirements to run Hosted API. **<br>
+   **C. Step & Requirements to run Localhost API.** <br>
    
 ## A. Summary
 
