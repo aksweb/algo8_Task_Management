@@ -65,7 +65,7 @@ d. Observe the response:
 
 ![Untitled](pics/Untitled%201.png)
 
-1. Read Tasks API.
+2. Read Tasks API.
 
    1. Add Bearer Token as Authorization using the generated token.
 
@@ -83,7 +83,7 @@ d. Observe the response:
 
    ![Untitled](pics/Untitled%203.png)
 
-1. Update Task API:
+3. Update Task API:
 
    1. Add Bearer Token as Authorization using the generated token.
 
@@ -101,7 +101,7 @@ d. Observe the response:
    Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImVtYWlsIjoic29uaXB1amFAZ21haWwuY29tIiwiaWF0IjoxNzEyODM1Mjg4LCJleHAiOjE3MTI4Mzg4ODh9.Jj8X5Hx5ynjgXYtGNnSr1LjyYFZjtdPjrazKq7x8LHM
    ```
 
-1. DELETE Task API:
+4. DELETE Task API:
 
    1. Add Bearer Token as Authorization using the generated token.
 
@@ -118,7 +118,7 @@ d. Observe the response:
 
    ![Untitled](pics/Untitled%207.png)
 
-1. DELETE USER API:
+5. DELETE USER API:
 
    1. Add Bearer Token as Authorization using the generated token.
 
