@@ -158,7 +158,7 @@ c. Observe the response in body.
 ```bash
    git clone https://github.com/aksweb/algo8_Task_Management.git
 ```
-**2. Install MySQL and setup the required Environment Variables for coonecting the DB (in Config folder). <br>
+**2. Install MySQL and setup the required Environment Variables for coonecting the DB (in Config folder).** <br>
 **3. Run the following SQL commands** <br>
 
 ```bash
@@ -180,14 +180,14 @@ CREATE TABLE IF NOT EXISTS tasks (
 );
 ```
 
-**4. Open the project directory and open it in terminal.** 5. Run the following command
+**4. Open the project directory in terminal and run the following commands
 
 ```bash
 npm install
 npm start
 ```
 
-6. Or To directly Test the APIs run the following:
+6. Or To directly Test the APIs run the following stop the servevr on port 3000 and run this:
 
    ```bash
    npm run test
