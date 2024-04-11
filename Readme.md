@@ -1,4 +1,4 @@
-# **Algo8 Tack Management API Docs**
+# **Algo8 Task Management API Docs**
 ## Summary
 1. User creates the account by registering.<br>
 2. User Logged In and generates an JWT authentication token containining userId. <br>
@@ -235,6 +235,8 @@ Test Cases:
 6. Test case for creating a task. <br>
 7. Test case for updating a task. <br>
 8. Test case for deleting all tasks of the authenticated user. <br>
+![TestCases](pics/tests.png) <br>
+
   
 
 
