@@ -1,6 +1,6 @@
 # Algo8 Tack Management API Docs
 
-APIs
+## APIs
 
 1. User Registration.
    1. Do a POST request with the following JSON in the body
