@@ -3,9 +3,9 @@ POST http://localhost:3000/signup
 Content-Type: application/json
 
 {
-    "email": "soni@gmail.com",
-    "username": "soni",
-    "password": "soni"
+    "email": "puja@gmail.com",
+    "username": "puja",
+    "password": "puja"
 }
 
 ### login
@@ -13,41 +13,41 @@ POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-    "email": "soni@gmail.com",
-    "password": "soni"
+    "email": "puja@gmail.com",
+    "password": "puja"
 }
 
 ### get tasks of user
 GET http://localhost:3000/tasks
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU4LCJlbWFpbCI6InNvbmFsaUBnbWFpbC5jb20iLCJpYXQiOjE3MTI4MjQ2MDUsImV4cCI6MTcxMjgyODIwNX0.vxiYTsgjb7flM7q_bnGezrrq6puIZRq-sdV50-fqB_E
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjczLCJlbWFpbCI6InB1amFAZ21haWwuY29tIiwiaWF0IjoxNzEyODQ4NDUxLCJleHAiOjE3MTI4NTIwNTF9.XQvF8M9nCOlBh02jf5RbjLaLh44K4nY1gHbF4aZMVpk
 
 
 ### creating tasks
 POST http://localhost:3000/tasks
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU4LCJlbWFpbCI6InNvbmFsaUBnbWFpbC5jb20iLCJpYXQiOjE3MTI4MjQ2MDUsImV4cCI6MTcxMjgyODIwNX0.vxiYTsgjb7flM7q_bnGezrrq6puIZRq-sdV50-fqB_E
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjczLCJlbWFpbCI6InB1amFAZ21haWwuY29tIiwiaWF0IjoxNzEyODQ4NDUxLCJleHAiOjE3MTI4NTIwNTF9.XQvF8M9nCOlBh02jf5RbjLaLh44K4nY1gHbF4aZMVpk
 
 {
-    "title": "mujhe gud paratha chaheye",
-    "description": "I m on diet"
+    "title": "readme banana",
+    "description": "pandoc"
 }
 
 ###update
 PUT http://localhost:3000/tasks/41
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU4LCJlbWFpbCI6InNvbmFsaUBnbWFpbC5jb20iLCJpYXQiOjE3MTI4MjQ2MDUsImV4cCI6MTcxMjgyODIwNX0.vxiYTsgjb7flM7q_bnGezrrq6puIZRq-sdV50-fqB_E
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjczLCJlbWFpbCI6InB1amFAZ21haWwuY29tIiwiaWF0IjoxNzEyODQ4NDUxLCJleHAiOjE3MTI4NTIwNTF9.XQvF8M9nCOlBh02jf5RbjLaLh44K4nY1gHbF4aZMVpk
 
 {
   "title": "testing",
-  "description": "I m on dietI m on diet"
+  "description": "ho gaya"
 }
 
 ### delete
 DELETE http://localhost:3000/tasks/7
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjExLCJlbWFpbCI6InlhZGF2QGdtYWlsLmNvbSIsImlhdCI6MTcxMjc5NjkzNCwiZXhwIjoxNzEyODAwNTM0fQ.-7QHtq6E0u5KOsCsb-ghGeX0YmcVU63HWpYdoV9dZsA
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjczLCJlbWFpbCI6InB1amFAZ21haWwuY29tIiwiaWF0IjoxNzEyODQ4NDUxLCJleHAiOjE3MTI4NTIwNTF9.XQvF8M9nCOlBh02jf5RbjLaLh44K4nY1gHbF4aZMVpk
 
 ### delete user and data
 DELETE http://localhost:3000/deluser
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjExLCJlbWFpbCI6InlhZGF2QGdtYWlsLmNvbSIsImlhdCI6MTcxMjc5NjkzNCwiZXhwIjoxNzEyODAwNTM0fQ.-7QHtq6E0u5KOsCsb-ghGeX0YmcVU63HWpYdoV9dZsA
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjczLCJlbWFpbCI6InB1amFAZ21haWwuY29tIiwiaWF0IjoxNzEyODQ4NDUxLCJleHAiOjE3MTI4NTIwNTF9.XQvF8M9nCOlBh02jf5RbjLaLh44K4nY1gHbF4aZMVpk
 
 
