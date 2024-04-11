@@ -3,9 +3,9 @@ POST http://localhost:3000/signup
 Content-Type: application/json
 
 {
-    "email": "sonalli@gmail.com",
-    "username": "sonalli",
-    "password": "sonali"
+    "email": "soni@gmail.com",
+    "username": "soni",
+    "password": "soni"
 }
 
 ### login
@@ -13,8 +13,8 @@ POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-    "email": "sonalli@gmail.com",
-    "password": "sonali"
+    "email": "soni@gmail.com",
+    "password": "soni"
 }
 
 ### get tasks of user
@@ -44,6 +44,10 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU4LCJlb
 
 ### delete
 DELETE http://localhost:3000/tasks/7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjExLCJlbWFpbCI6InlhZGF2QGdtYWlsLmNvbSIsImlhdCI6MTcxMjc5NjkzNCwiZXhwIjoxNzEyODAwNTM0fQ.-7QHtq6E0u5KOsCsb-ghGeX0YmcVU63HWpYdoV9dZsA
+
+### delete
+DELETE http://localhost:3000/deluser
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjExLCJlbWFpbCI6InlhZGF2QGdtYWlsLmNvbSIsImlhdCI6MTcxMjc5NjkzNCwiZXhwIjoxNzEyODAwNTM0fQ.-7QHtq6E0u5KOsCsb-ghGeX0YmcVU63HWpYdoV9dZsA
 
 

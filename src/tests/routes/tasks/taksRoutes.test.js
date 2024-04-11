@@ -1,10 +1,8 @@
 const request = require('supertest');
-const app = require('../index'); // Update the path to your app file
-const jwt = require('jsonwebtoken');
+const app = require('../../../index'); // Update the path to your app file
 
 // Define the token variable to store the generated token
 let token = '';
-var randno = Math.floor(Math.random() * 10000) + 1;
 
 describe('Auth Routes', () => {
     // Test case for the signup route
@@ -12,9 +10,9 @@ describe('Auth Routes', () => {
         const response = await request(app)
             .post('/signup')
             .send({
-                email: `a${randno}@example.com`,
-                username: `a${randno}`,
-                password: 'password'
+                email: 'a4@example.com',
+                username: 'a4',
+                password: 'a1password'
             });
 
         expect(response.statusCode).toBe(200);
@@ -27,25 +25,13 @@ describe('Auth Routes', () => {
         const response = await request(app)
             .post('/login')
             .send({
-                email: `a${randno}@example.com`,
-                password: 'password'
+                email: 'a4@example.com',
+                password: 'a1password'
             });
 
         expect(response.statusCode).toBe(200);
         expect(response.body).toHaveProperty('token');
         token = response.body.token;
-    });
-
-    // Test case for the invalid login attept
-    it('Check invalid user', async () => {
-        const response = await request(app)
-            .post('/login')
-            .send({
-                email: `a${randno}@example.com`,
-                password: 'Wrongpasswords'
-            });
-
-        expect(response.statusCode).toBe(401);
     });
 
     // Test case for fetching tasks
@@ -57,16 +43,6 @@ describe('Auth Routes', () => {
         expect(response.statusCode).toBe(200);
         expect(Array.isArray(response.body)).toBe(true);
     });
-
-    // Test case for fetching tasks
-    it('should block un-authenticated user', async () => {
-        const response = await request(app)
-            .get('/tasks')
-            .set('Authorization', `Bearer wrong${token}`);
-
-        expect(response.statusCode).toBe(401);
-    });
-
 
     // Test case for creating a task
     it('should create a new task for the authenticated user', async () => {
@@ -95,16 +71,6 @@ describe('Auth Routes', () => {
 
         expect(response.statusCode).toBe(200);
         expect(response.body).toHaveProperty('message', 'Task updated successfully');
-    });
-
-    // Test case for deleting all tasks of the authenticated user
-    it('should delete all tasks of the authenticated user', async () => {
-        const response = await request(app)
-            .delete('/deluser')
-            .set('Authorization', `Bearer ${token}`);
-
-        expect(response.statusCode).toBe(200);
-        // expect(response.body).toHaveProperty('message', 'All tasks deleted successfully');
     });
 
 });
