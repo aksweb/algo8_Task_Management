@@ -1,5 +1,5 @@
 # **Algo8 Task Management API Docs**
-## The readme is divided int 3 sections
+## This readme is divided into 3 sections
    **A. Summary.** <br>
    **B. Step & Requirements to run Hosted API.** <br>
    **C. Step & Requirements to run Localhost API.** <br>
@@ -156,7 +156,7 @@ c. Observe the response in body.
    Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImVtYWlsIjoic29uaXB1amFAZ21haWwuY29tIiwiaWF0IjoxNzEyODM1Mjg4LCJleHAiOjE3MTI4Mzg4ODh9.Jj8X5Hx5ynjgXYtGNnSr1LjyYFZjtdPjrazKq7x8LHM
    ```
 <br> <br>
-## _**C. Requirements for running the API in localhost**_:
+## _**C. Requirements for running the API on localhost**_:
 
 **1. Clone this repository.** <br>
 ```bash
@@ -190,20 +190,20 @@ CREATE TABLE IF NOT EXISTS tasks (
 );
 ```
 
-**4. Open the project directory in terminal and run the following commands
+**4. Open the project directory in terminal and run the following commands**
 
 ```bash
 npm install
 npm start
 ```
 
-6. Or To directly Test the APIs run the following command before stopping the server on port 3000:
+**6. Or To directly Test the APIs run the following command before stopping the server on port 3000:**
 
    ```bash
    npm run test
    ```
 
-7. To manually test the API using REST api extension or POSTMAN as explained above, do the following:
+**7. To manually test the API using REST api extension or POSTMAN as explained above, do the following:**
 
    ```bash
    ### signup
@@ -253,8 +253,7 @@ npm start
    Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjExLCJlbWFpbCI6InlhZGF2QGdtYWlsLmNvbSIsImlhdCI6MTcxMjc5NjkzNCwiZXhwIjoxNzEyODAwNTM0fQ.-7QHtq6E0u5KOsCsb-ghGeX0YmcVU63HWpYdoV9dZsA
    ```
 
-Test Cases:
-
+**Test Cases:**
 1. Test case for the signup route <br>
 2. Test case for the login route. <br>
 3. Test case for the invalid login attempt. <br>
