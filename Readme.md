@@ -154,9 +154,12 @@ c. Observe the response in body.
 
 ## _**Requirements for running the API in localhost**_:
 
-**1. Clone this repository.**
-**2. Install MySQL and setup the required Environment Variables for coonecting the DB (in Config folder).
-**3. Run the following SQL commands\*\*
+**1. Clone this repository.** <br>
+```bash
+   git clone https://github.com/aksweb/algo8_Task_Management.git
+```
+**2. Install MySQL and setup the required Environment Variables for coonecting the DB (in Config folder). <br>
+**3. Run the following SQL commands** <br>
 
 ```bash
 -- Database
