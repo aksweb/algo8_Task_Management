@@ -164,7 +164,7 @@ c. Observe the response in body.
 ```bash
    git clone https://github.com/aksweb/algo8_Task_Management.git
 ```
-**2. Install MySQL.**
+**2. Install MySQL and Node.js.**
 **3. Create a .env file containing the following variables as per your MySQL connection.** <br>
 ```bash
 DB_HOST
